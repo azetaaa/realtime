@@ -1,11 +1,13 @@
-import { FC } from "react";
+import { getServerSession } from "next-auth";
+import { notFound } from "next/navigation";
 
-import Button from "@/components/ui/Button";
+import { authOptions } from "@/lib/auth";
 
-interface DashboardProps {}
+const Dashboard = async ({}) => {
+  const session = await getServerSession(authOptions);
+  if (!session) notFound();
 
-const Dashboard: FC<DashboardProps> = ({}) => {
-  return <Button>hello</Button>;
+  return <pre>{JSON.stringify(session)}</pre>;
 };
 
 export default Dashboard;
