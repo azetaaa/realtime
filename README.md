@@ -1,3 +1,16 @@
+# Realtime - Chat Messaging App
+
+Realtime is a modern chat messaging application designed for seamless, real-time communication. Built with TypeScript, Next.js, and Tailwind CSS, it leverages Redis as an in-memory database to deliver instant messaging with a smooth user experience inspired by Messenger.
+
+## Features
+
+- ⚡ Real-Time Messaging – Powered by Redis for ultra-fast communication.
+- 🎨 Modern UI – Inspired by Messenger, ensuring a sleek and intuitive chat experience.
+- 📱 Responsive Design – Optimized for both desktop and mobile users.
+- 🚀 Full-Stack Deployment – Built for scalability and high performance.
+
+Realtime is the perfect solution for developers looking to integrate instant messaging into their projects with a responsive and modern design.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
